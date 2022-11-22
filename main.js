@@ -24,8 +24,8 @@ function handleEnter(e) {
   }
 }
 
-function handleClick(event) {
-  event.preventDefault();
+function handleClick(e) {
+  e.preventDefault();
   const inputNumber = document.querySelector("#inputNumber");
   console.log(inputNumber.value);
   if (inputNumber.value < 0 || inputNumber.value > 10) {
