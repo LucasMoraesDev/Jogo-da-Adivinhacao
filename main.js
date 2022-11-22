@@ -9,7 +9,7 @@ document.querySelector("#btnReset").addEventListener("click", handleReset);
 document.addEventListener("keydown", handleEnter);
 
 function resetGame() {
-  randomNumber = Math.round(Math.random() * 0);
+  randomNumber = Math.round(Math.random() * 10);
   xAttempts = 1;
 }
 
